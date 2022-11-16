@@ -10,78 +10,155 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="Pernell2b.css">
+    <link rel="stylesheet" type="text/css" href="PernellTermProject.css">
 </head>
 
 <body>
-    <h1>Avalon Pernell</h1>
-
-    <!--Nav bar-->
-    <div class="row">
-      <div class="col-9">
-      <div class="container">
-      The Web Content in detail.
+  <!--Nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <h1>Avalon Pernell</h1>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
       </div>
-      <div class ="container">
-      <p> The vertical menu can place the left or right side of the web pages. <br> But the default vertical menu placed on the left side. </P>
-      </div>
-      </div>
-      <div class="col-3">
-      <nav class ="navbar bg-light">
-      <ul class ="nav navbar-nav">
-      <li class ="nav-item">
-      <a class ="nav-link" href="#"> Home </a>
-      </li>
-      <li class ="nav-item">
-      <a class ="nav-link" href="#"> About Me </a>
-      </li>
-      <li class ="nav-item">
-      <a class ="nav-link" href="#">Portfolio </a>
-      </li>
-      <li class ="nav-item">
-      <a class ="nav-link" href="#">Awards</a>
-      </li>      
-      <li class ="nav-item">
-      <a class ="nav-link" href="#">Contact Me</a>
-      </li>
-      </ul>
-      </nav>
-      </div>
-      </div>
+    </div>
+  </nav>
     <!--Hero Image-->
 
+    <!-- Background image -->
+  <div id="intro-example" class="p-5 text-center bg-image"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3">Hi, my name is Avalon Pernell</h1>
+        <h5 class="mb-4">Journalist. Video-Editor. Consultant. Speaker.</h5>
+        <a class="btn btn-outline-light btn-lg m-2" href="https://drive.google.com/file/d/1sAw5IkkkaOvlewxoyXCOW_clSS3riZcN/view?usp=sharing"
+          role="button" rel="nofollow" target="_blank">Resume</a>
+        <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=41j7OojR324&ab_channel=SimplyAvalon"
+          target="_blank" role="button">Reel</a>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- Background image -->
 
     <!--Middle-->
     
     
     <!--Quote-->
-      
+  <blockquote class="blockquote">
+    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
 
     <!--Tabs-->
-    <div class="grid text-center" style="--bs-gap: .25rem 1rem;">
-      <div class="g-col-6">
-        <a href="/search/label/Writing">
-          <img src=""/>
-          <h2>Writing</h2>
-        </a>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="writing.jpg" class="card-img-top" alt="laptop lays on bed with yellow pillows" width="785" height="291">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <h1 class="mb-3">Hi, my name is Avalon Pernell</h1>
+          </div>
+        </div>
       </div>
-
-      <div class="g-col-6">Speaking Engagements</div>
-        <a href="/search/label/Speaking">
-          <img src=""/>
-          <h2>Speaking Engagements</h2>
-        </a>
-      <div class="g-col-6">Video Editing</div>
-      <div class="g-col-6">Brand Consulting</div>
     </div>
+    <div class="col">
+      <div class="card">
+        <img src="videoediting.jpg" class="card-img-top" alt="Displays several tracks / stems on Adobe Premiere Pro" width="785" height="291">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="speaking.jpeg" class="card-img-top" alt="..." width="785" height="291">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="brand consulting.jpg" class="card-img-top" alt="..." width="785" height="291">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!--Portfolio-->
 
 
     <!--Form-->
-
-
+  <div class="mp-5 gap-3" id="emailForm">
+    <p id="form">"Let's Talk"</p>
+    <h2>Let's continue this conversation offline.</h2>
+    <form name='contact-form'>
+      <p></p>
+      Name<br/>
+      <input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' size='30' value='' type='text' />
+      <p></p>
+      Email
+      <span style='font-weight: bolder;'>*</span><br />
+      <input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' size='30' value='' type='text' />
+      <p></p>
+      Message<span style='font-weight: bolder;'>*</span><br />
+      <textarea class='contact-form-email-message' cols='25' id='ContactForm1_contact-form-email-message' name='email-message' rows='5'></textarea>
+      <p></p>
+      <input class='contact-form-button contact-form-button-submit' id='ContactForm1_contact-form-submit' value='Send' type='submit' />
+      <p></p>
+      <div style='text-align: center; max-width: 222px; width: 100%'>
+      <p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+      <p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+      </div>
+      </form>
+    </div>
     <!--Call me beep me-->
-
+  
+  <section id="">
+    <h2>Call Me. Beep Me...Or just join my newsletter.</h2>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <a href="#"><button class="btn btn-primary me-md-2" type="button">Contact Me</button></a>
+      <a href="#"><button class="btn btn-primary" type="button">Join Newsletter</button></a>
+    </div>
+  </section>
 
     <!--Footer-->
