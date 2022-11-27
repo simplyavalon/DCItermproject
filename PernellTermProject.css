@@ -6,6 +6,11 @@ body {
     background-color: #F5F5ED;
 }
 
+#hero {
+    height: 30%;
+    width: 30%;   
+}
+
 #form { 
     position: absolute;
     width: 97.69px;
@@ -21,11 +26,46 @@ body {
     transform: rotate(-16.13deg);
 }
 
+#emailForm 
+
+h2 {
+    text-align: center;
+}
+
 #callMe {
     background-color:#F6E27F;
+}
+
+.size {
+    width: 475px;
+    height: 150px;
+}
+
+.tabs {
+    background: rgba(244, 243, 238, 0.9);
+    border: 5px solid #BA3B54;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    height: 75px;
+    width: 400px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+
 }
 
 form {
     color:#BA3B54;
     float: right;
+}
+
+footer {
+    text-align: center;
 }
