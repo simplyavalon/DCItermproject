@@ -7,32 +7,55 @@ body {
 }
 
 #hero {
-    height: 30%;
-    width: 30%;   
+    height: 75%;
 }
 
-#form { 
-    position: absolute;
+#containHeight {
+    height: 375px;
+}
+
+#talk { 
+    position: flexible;
     width: 97.69px;
-    height: 20px;
+    height: 12px;
     font-family: 'Fraunces 9pt';
     font-style: normal;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 85px;
     line-height: 80px;
-    display: flex;
+    display: inside;
     align-items: center;
     color: #F6E27F;
     transform: rotate(-16.13deg);
 }
 
-#emailForm 
+.decor{
+    color:#BA3B54;
+    text-align: center;
+}
+
+#padding {
+    height: 150px;
+}
+
+.container-fluid{
+    padding: 0;
+ }
+
+#portfolio {
+    text-align: center;
+} 
 
 h2 {
     text-align: center;
 }
 
+#ughHeight {
+    height: 450px;
+}
+
 #callMe {
+    height: 125px;
     background-color:#F6E27F;
 }
 
@@ -59,6 +82,31 @@ h2 {
     top: 0px;
     border-radius: 6px;
 
+}
+
+.btn-color {
+    background-color: #BA3B54;
+    --bs-btn-hover-color: var(--bs-grey);
+    --bs-btn-hover-bg: #BA3B59(10%);
+    --bs-btn-hover-border-color: #BA3B59 (50%);
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+}
+
+.bg-image {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+    height: 15%;
+    vertical-align: bottom;
+}
+
+.dummypics {
 }
 
 form {
