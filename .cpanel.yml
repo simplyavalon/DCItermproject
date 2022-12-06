@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOTPATH=/home/pernella23/public_html/
+    - /bin/cp -R * $DEPLOYPATH
